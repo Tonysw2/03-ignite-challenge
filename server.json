@@ -4,7 +4,7 @@
       "id": 1, 
       "description": "Desenvolvimento do site", 
       "type": "income",
-      "category": "venda",
+      "category": "Venda",
       "price": 14000,
       "createdAt": "2022-11-29T20:20:29.147Z"
     },
@@ -12,9 +12,17 @@
       "id": 2, 
       "description": "Roupas", 
       "type": "outcome",
-      "category": "alimentação",
+      "category": "Alimentação",
       "price": 50,
       "createdAt": "2022-11-29T20:20:29.147Z"
+    },
+    {
+      "id": 3, 
+      "description": "Rocketseat Ignite", 
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1770,
+      "createdAt": "2022-12-10T20:20:29.147Z"
     }
   ]
 }
