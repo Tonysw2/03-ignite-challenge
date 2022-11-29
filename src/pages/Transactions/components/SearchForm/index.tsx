@@ -8,6 +8,7 @@ export function SearchForm() {
 
       <button type="submit">
         <MagnifyingGlass size={20} />
+        <p>Buscar</p>
       </button>
     </SearchFormContainer>
   )
