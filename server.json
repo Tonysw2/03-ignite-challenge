@@ -1,28 +1,68 @@
 {
   "transactions": [
     {
-      "id": 1, 
-      "description": "Desenvolvimento do site", 
+      "id": 1,
+      "description": "Desenvolvimento do site",
       "type": "income",
       "category": "Venda",
       "price": 14000,
       "createdAt": "2022-11-29T20:20:29.147Z"
     },
     {
-      "id": 2, 
-      "description": "Roupas", 
+      "id": 2,
+      "description": "Roupas",
       "type": "outcome",
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2022-11-29T20:20:29.147Z"
     },
     {
-      "id": 3, 
-      "description": "Rocketseat Ignite", 
+      "id": 3,
+      "description": "Rocketseat Ignite",
       "type": "outcome",
       "category": "Educação",
       "price": 1770,
-      "createdAt": "2022-12-10T20:20:29.147Z"
+      "createdAt": "2022-11-11T20:20:29.147Z"
+    },
+    {
+      "description": "Passagem",
+      "price": 1000,
+      "category": "Viagem",
+      "type": "outcome",
+      "createdAt": "2022-11-30T14:13:02.504Z",
+      "id": 4
+    },
+    {
+      "description": "Desenvlvimento de app",
+      "price": 5000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2022-11-30T14:15:23.703Z",
+      "id": 5
+    },
+    {
+      "description": "Almoço",
+      "price": 30,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2022-11-30T14:27:33.750Z",
+      "id": 6
+    },
+    {
+      "description": "Livros",
+      "price": 100,
+      "category": "Leitura",
+      "type": "outcome",
+      "createdAt": "2022-11-30T15:06:41.147Z",
+      "id": 7
+    },
+    {
+      "description": "Teclado",
+      "price": 300,
+      "category": "Eletronicos",
+      "type": "outcome",
+      "createdAt": "2022-11-30T15:10:42.970Z",
+      "id": 8
     }
   ]
 }
