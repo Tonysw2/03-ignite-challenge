@@ -1,6 +1,4 @@
-# Coffee delivery - ignite challenge
-
-
+# DT Money
 
 ## Functionalities
 
