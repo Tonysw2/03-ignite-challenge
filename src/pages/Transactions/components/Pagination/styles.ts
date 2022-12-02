@@ -24,7 +24,7 @@ export const PaginationContainer = styled.div`
       background-color: ${(props) => props.theme['gray-600']};
       height: 40px;
       width: 40px;
-      color: ${(props) => props.theme['gray-300']};
+      color: ${(props) => props.theme.white};
       font-weight: 700;
       border: none;
       cursor: pointer;
@@ -32,6 +32,15 @@ export const PaginationContainer = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
+
+      &:not(.active):hover {
+        background: ${(props) => props.theme['gray-500']};
+        transition: all 0.2s;
+      }
+    }
+
+    li .active {
+      background: ${(props) => props.theme['green-500']};
     }
   }
 `;

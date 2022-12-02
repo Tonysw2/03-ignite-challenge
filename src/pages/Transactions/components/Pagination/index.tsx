@@ -28,7 +28,12 @@ export function Pagination() {
         {Array.from({ length: pagesToRender }).map((_, index) => {
           return (
             <li key={index}>
-              <button onClick={changePage}>{index + 1}</button>
+              <button
+                className={currentPage === index + 1 ? 'active' : ''}
+                onClick={changePage}
+              >
+                {index + 1}
+              </button>
             </li>
           );
         })}

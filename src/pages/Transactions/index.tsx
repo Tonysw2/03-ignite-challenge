@@ -46,7 +46,7 @@ export function Transactions() {
           </tbody>
         </TransactionTable>
 
-        <Pagination />
+        {transactions.length === 0 ? null : <Pagination />}
       </TransactionContainer>
     </div>
   );
