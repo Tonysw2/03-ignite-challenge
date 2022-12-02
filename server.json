@@ -63,6 +63,86 @@
       "type": "outcome",
       "createdAt": "2022-11-30T15:10:42.970Z",
       "id": 8
+    },
+    {
+      "description": "gbgbgb",
+      "price": 4,
+      "category": "wfwefwef",
+      "type": "outcome",
+      "createdAt": "2022-12-01T18:15:32.090Z",
+      "id": 9
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 10
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 11
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 12
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 13
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 14
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 15
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 16
+    },
+    {
+      "description": "wefwefwefwe",
+      "price": 100,
+      "category": "rferagbfgr",
+      "type": "income",
+      "createdAt": "2022-12-01T18:15:46.485Z",
+      "id": 17
+    },
+    {
+      "description": "wedqwdqwedq",
+      "price": 300,
+      "category": "uibyvcgqwtyvc",
+      "type": "outcome",
+      "createdAt": "2022-12-01T23:33:22.476Z",
+      "id": 18
     }
   ]
 }

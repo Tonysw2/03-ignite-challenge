@@ -1,19 +1,20 @@
-import { useContextSelector } from 'use-context-selector'
-import { Header } from '../../components/Header'
-import { Summary } from '../../components/Summary'
-import { TransactionsContext } from '../../contexts/TransactionsContext'
-import { dateFormatter, priceFormatter } from '../../utils/Formatter'
-import { SearchForm } from './components/SearchForm'
+import { useContextSelector } from 'use-context-selector';
+import { Header } from '../../components/Header';
+import { Summary } from '../../components/Summary';
+import { TransactionsContext } from '../../contexts/TransactionsContext';
+import { dateFormatter, priceFormatter } from '../../utils/Formatter';
+import { Pagination } from './components/Pagination';
+import { SearchForm } from './components/SearchForm';
 import {
   PriceHighLight,
   TransactionContainer,
   TransactionTable,
-} from './styles'
+} from './styles';
 
 export function Transactions() {
   const transactions = useContextSelector(TransactionsContext, (context) => {
-    return context.transactions
-  })
+    return context.transactions;
+  });
 
   return (
     <div>
@@ -40,11 +41,13 @@ export function Transactions() {
                     {dateFormatter.format(new Date(transaction.createdAt))}
                   </td>
                 </tr>
-              )
+              );
             })}
           </tbody>
         </TransactionTable>
+
+        <Pagination />
       </TransactionContainer>
     </div>
-  )
+  );
 }

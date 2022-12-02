@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const SearchFormContainer = styled.form`
   display: flex;
@@ -32,6 +32,7 @@ export const SearchFormContainer = styled.form`
     color: ${(props) => props.theme['green-300']};
     font-weight: bold;
     border-radius: 6px;
+    cursor: pointer;
 
     &:disabled {
       opacity: 0.5;
@@ -45,4 +46,4 @@ export const SearchFormContainer = styled.form`
       transition: all 0.2s;
     }
   }
-`
+`;

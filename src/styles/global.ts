@@ -17,4 +17,28 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
   }
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: ${(props) => props.theme['gray-900']}
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    
+    background: #00875F60;
+    border-radius: 999px;
+  
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00875F;
+    
+  }
 `

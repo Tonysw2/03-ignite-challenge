@@ -1,17 +1,18 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const TransactionContainer = styled.div`
   width: 100%;
   max-width: 1120px;
   margin: 4rem auto 0;
   padding: 0 1.5rem;
-`
+`;
 
 export const TransactionTable = styled.table`
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.5rem;
   margin-top: 1.5rem;
+  flex: 1;
 
   td {
     padding: 1.25rem;
@@ -27,10 +28,10 @@ export const TransactionTable = styled.table`
       border-bottom-right-radius: 6px;
     }
   }
-`
+`;
 
 interface PriceHighLightProps {
-  variant: 'income' | 'outcome'
+  variant: 'income' | 'outcome';
 }
 
 export const PriceHighLight = styled.span<PriceHighLightProps>`
@@ -38,4 +39,4 @@ export const PriceHighLight = styled.span<PriceHighLightProps>`
     props.variant === 'income'
       ? props.theme['green-300']
       : props.theme['red-300']};
-`
+`;
