@@ -41,14 +41,6 @@
       "id": 5
     },
     {
-      "description": "Almoço",
-      "price": 30,
-      "category": "Alimentação",
-      "type": "outcome",
-      "createdAt": "2022-11-30T14:27:33.750Z",
-      "id": 6
-    },
-    {
       "description": "Livros",
       "price": 100,
       "category": "Leitura",
@@ -63,30 +55,6 @@
       "type": "outcome",
       "createdAt": "2022-11-30T15:10:42.970Z",
       "id": 8
-    },
-    {
-      "description": "Capinha de iPhone",
-      "price": 100,
-      "category": "acessórios",
-      "type": "outcome",
-      "createdAt": "2023-02-03T14:28:50.079Z",
-      "id": 19
-    },
-    {
-      "description": "Salário",
-      "price": 10000,
-      "category": "Trabalho",
-      "type": "income",
-      "createdAt": "2023-02-03T14:29:20.997Z",
-      "id": 20
-    },
-    {
-      "description": "Conta de água",
-      "price": 50,
-      "category": "Contas da casa",
-      "type": "income",
-      "createdAt": "2023-02-03T14:48:14.954Z",
-      "id": 21
     }
   ]
 }

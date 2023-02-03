@@ -29,6 +29,7 @@ interface TransactionsContextType {
   currentPage: number
   fetchTransactions: (URLparams?: FetchTransactionsProps) => Promise<void>
   createTransaction: (data: CreateTransactionInput) => Promise<void>
+  deleteTransaction: (id: number) => void
   goToPreviousPage: () => void
   goToNextPage: () => void
   changePage: (e: any) => void
@@ -96,6 +97,14 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
     [],
   )
 
+  const deleteTransaction = useCallback(
+    async (id: number) => {
+      await api.delete(`/transactions/${id}`)
+      fetchTransactions()
+    },
+    [fetchTransactions],
+  )
+
   useEffect(() => {
     fetchTransactions({ page: currentPage })
   }, [fetchTransactions, currentPage])
@@ -108,6 +117,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
         currentPage,
         fetchTransactions,
         createTransaction,
+        deleteTransaction,
         goToPreviousPage,
         goToNextPage,
         changePage,

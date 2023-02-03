@@ -12,9 +12,15 @@ import {
 } from './styles'
 
 export function Transactions() {
-  const transactions = useContextSelector(TransactionsContext, (context) => {
-    return context.transactions
-  })
+  const { transactions, deleteTransaction } = useContextSelector(
+    TransactionsContext,
+    (context) => {
+      return {
+        transactions: context.transactions,
+        deleteTransaction: context.deleteTransaction,
+      }
+    },
+  )
 
   return (
     <div>
@@ -28,7 +34,10 @@ export function Transactions() {
           <tbody>
             {transactions.map((transaction) => {
               return (
-                <tr key={transaction.id}>
+                <tr
+                  key={transaction.id}
+                  onClick={() => deleteTransaction(transaction.id)}
+                >
                   <td width="50%">{transaction.description}</td>
                   <td>
                     <PriceHighLight variant={transaction.type}>
