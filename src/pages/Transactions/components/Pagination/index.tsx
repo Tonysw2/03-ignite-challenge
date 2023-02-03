@@ -1,9 +1,7 @@
-import { CaretLeft, CaretRight } from 'phosphor-react';
-import { useState } from 'react';
-import { useContext } from 'use-context-selector';
-import { array } from 'zod';
-import { TransactionsContext } from '../../../../contexts/TransactionsContext';
-import { Button, PaginationContainer } from './styles';
+import { CaretLeft, CaretRight } from 'phosphor-react'
+import { useContext } from 'use-context-selector'
+import { TransactionsContext } from '../../../../contexts/TransactionsContext'
+import { Button, PaginationContainer } from './styles'
 
 export function Pagination() {
   const {
@@ -12,11 +10,13 @@ export function Pagination() {
     goToPreviousPage,
     goToNextPage,
     changePage,
-  } = useContext(TransactionsContext);
-  const transactionsPerPage = 10;
-  const pageLimit = 3;
-  const pages = Math.ceil(totalTransactions / transactionsPerPage);
-  const pagesToRender = pages > pageLimit ? pageLimit : pages;
+  } = useContext(TransactionsContext)
+  const transactionsPerPage = 10
+  const pageLimit = 3
+  const pages = Math.ceil(totalTransactions / transactionsPerPage)
+  const pagesToRender = pages > pageLimit ? pageLimit : pages
+
+  console.log(totalTransactions)
 
   return (
     <PaginationContainer>
@@ -35,7 +35,7 @@ export function Pagination() {
                 {index + 1}
               </button>
             </li>
-          );
+          )
         })}
       </ul>
 
@@ -43,5 +43,5 @@ export function Pagination() {
         <CaretRight size={24} weight="bold" />
       </Button>
     </PaginationContainer>
-  );
+  )
 }

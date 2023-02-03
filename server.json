@@ -65,84 +65,28 @@
       "id": 8
     },
     {
-      "description": "gbgbgb",
-      "price": 4,
-      "category": "wfwefwef",
+      "description": "Capinha de iPhone",
+      "price": 100,
+      "category": "acessórios",
       "type": "outcome",
-      "createdAt": "2022-12-01T18:15:32.090Z",
-      "id": 9
+      "createdAt": "2023-02-03T14:28:50.079Z",
+      "id": 19
     },
     {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
+      "description": "Salário",
+      "price": 10000,
+      "category": "Trabalho",
       "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 10
+      "createdAt": "2023-02-03T14:29:20.997Z",
+      "id": 20
     },
     {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
+      "description": "Conta de água",
+      "price": 50,
+      "category": "Contas da casa",
       "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 11
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 12
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 13
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 14
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 15
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 16
-    },
-    {
-      "description": "wefwefwefwe",
-      "price": 100,
-      "category": "rferagbfgr",
-      "type": "income",
-      "createdAt": "2022-12-01T18:15:46.485Z",
-      "id": 17
-    },
-    {
-      "description": "wedqwdqwedq",
-      "price": 300,
-      "category": "uibyvcgqwtyvc",
-      "type": "outcome",
-      "createdAt": "2022-12-01T23:33:22.476Z",
-      "id": 18
+      "createdAt": "2023-02-03T14:48:14.954Z",
+      "id": 21
     }
   ]
 }
