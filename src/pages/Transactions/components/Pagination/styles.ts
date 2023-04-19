@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const PaginationContainer = styled.div`
   display: flex;
@@ -43,7 +43,7 @@ export const PaginationContainer = styled.div`
       background: ${(props) => props.theme['green-500']};
     }
   }
-`;
+`
 
 export const Button = styled.button`
   border: none;
@@ -64,4 +64,4 @@ export const Button = styled.button`
     cursor: not-allowed;
     opacity: 0.5;
   }
-`;
+`
